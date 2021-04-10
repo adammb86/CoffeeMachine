@@ -5,6 +5,8 @@ const _ = require('lodash');
 const myArray = [1, 2, 3, 4];
 //comment 3: menggunakan fungsi tambah data array di lodash
 const sum = _.sum(myArray);
+myArray.push(5);
 
 // comment 4: menampilkan hasil penjumlahan data yang ada di myArray
 console.log(sum);
+console.log(myArray);
